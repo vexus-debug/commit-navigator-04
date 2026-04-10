@@ -39,7 +39,7 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="lg:col-span-2 space-y-8">
             {[
-              { icon: MapPin, title: "Address", lines: ["202 Upper Mission Extension, Aduwawa", "76 Village Road", "Benin City, Nigeria"] },
+              { icon: MapPin, title: "Address", lines: ["202 Upper Mission Extension before Tomatoes market, Aduwawa", "76 Village Road", "Benin City, Nigeria"] ["76, Ugbor Village Road, by Steds one-stop supermarket", "adjacent Nipco Filling Station, GRA", "Benin City, Nigeria"] },
               { icon: Phone, title: "Phone", lines: ["07038847355"] },
               { icon: Mail, title: "Email", lines: ["apcareonline@gmail.com"] },
               { icon: Clock, title: "Hours", lines: ["Mon-Fri: 8AM – 6PM", "Sat: 9AM – 3PM", "Sun: Closed"] },
