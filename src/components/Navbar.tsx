@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, Phone, Mail, Facebook, Instagram } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useState } from "react";
+import apcareLogo from "@/assets/apcare-logo.png";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -26,9 +27,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 glass-intense border-b border-border/30">
       <div className="container flex h-20 items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="relative w-12 h-12 rounded-xl bg-secondary flex items-center justify-center shadow-glass transition-transform duration-300 group-hover:scale-105">
-            <span className="text-secondary-foreground font-heading font-bold text-lg">AP</span>
-          </div>
+          <img src={apcareLogo} alt="APCARE Eye Clinic" className="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-105" />
           <div className="hidden sm:block">
             <p className="text-sm font-semibold text-primary leading-tight">APCARE</p>
             <p className="text-xs text-muted-foreground leading-tight">Eye Center</p>
@@ -60,9 +59,7 @@ const Navbar = () => {
           <SheetContent side="right" className="w-[300px] p-0 flex flex-col glass-intense">
             <div className="p-6 pb-4 border-b border-border/30">
               <Link to="/" onClick={() => setOpen(false)} className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-secondary flex items-center justify-center shadow-glass">
-                  <span className="text-secondary-foreground font-heading font-bold text-sm">AP</span>
-                </div>
+                <img src={apcareLogo} alt="APCARE Eye Clinic" className="w-10 h-10 object-contain" />
                 <div>
                   <p className="text-sm font-semibold text-primary leading-tight">APCARE</p>
                   <p className="text-xs text-muted-foreground leading-tight">Eye Center</p>

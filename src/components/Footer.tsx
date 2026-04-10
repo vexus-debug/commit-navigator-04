@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Facebook, Instagram, ArrowRight, Eye } from "lucide-react";
+import apcareLogo from "@/assets/apcare-logo.png";
 
 const footerLinks = [
   { to: "/about", label: "About Us" },
@@ -45,9 +46,7 @@ const Footer = () => (
           {/* Brand */}
           <div className="md:col-span-4">
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 rounded-xl bg-secondary flex items-center justify-center shadow-glass">
-                <span className="text-secondary-foreground font-heading font-bold text-sm">AP</span>
-              </div>
+              <img src={apcareLogo} alt="APCARE Eye Clinic" className="w-10 h-10 object-contain" />
               <div>
                 <p className="font-heading font-bold text-sm">APCARE Eye Center</p>
                 <p className="text-[11px] text-primary-foreground/50">Your Trusted Eye Clinic</p>
