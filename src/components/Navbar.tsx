@@ -56,7 +56,7 @@ const Navbar = () => {
               <Menu size={22} />
             </button>
           </SheetTrigger>
-          <SheetContent side="right" className="w-[300px] p-0 flex flex-col glass-intense">
+          <SheetContent side="right" className="w-[300px] p-0 flex flex-col bg-[hsl(174_30%_97%)] dark:bg-[hsl(174_20%_12%)] backdrop-blur-2xl border-l border-secondary/20">
             <div className="p-6 pb-4 border-b border-border/30">
               <Link to="/" onClick={() => setOpen(false)} className="flex items-center gap-3">
                 <img src={apcareLogo} alt="APCARE Eye Clinic" className="w-10 h-10 object-contain" />
