@@ -12,6 +12,10 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      sans: ["DM Sans", "sans-serif"],
+      heading: ["Plus Jakarta Sans", "sans-serif"],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -62,6 +66,14 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        xl: "calc(var(--radius) + 4px)",
+        "2xl": "calc(var(--radius) + 8px)",
+      },
+      boxShadow: {
+        glass: "0 8px 32px hsl(var(--glass-shadow) / 0.06), inset 0 1px 0 hsl(0 0% 100% / 0.12)",
+        "glass-lg": "0 20px 60px hsl(var(--glass-shadow) / 0.12), 0 8px 24px hsl(var(--glass-shadow) / 0.08), inset 0 1px 0 hsl(0 0% 100% / 0.22)",
+        "glass-glow": "0 0 30px hsl(var(--secondary) / 0.15), 0 8px 32px hsl(var(--glass-shadow) / 0.08)",
+        premium: "0 25px 50px -12px hsl(var(--glass-shadow) / 0.15)",
       },
       keyframes: {
         "accordion-down": {
