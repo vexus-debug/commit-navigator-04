@@ -37,8 +37,8 @@ import { useSiteContent } from "@/contexts/SiteContentContext";
 /* ───────────────────────── DATA ───────────────────────── */
 
 const stats = [
-  { value: 2024, label: "Year Established", icon: Calendar, suffix: "", isYear: true },
-  { value: 500, label: "Patients Served", icon: Heart, suffix: "+" },
+  { value: 2018, label: "Year Established", icon: Calendar, suffix: "", isYear: true },
+  { value: 4104, label: "Patients Served", icon: Heart, suffix: "+" },
   { value: 4, label: "Core Services", icon: Award, suffix: "" },
   { value: 100, label: "Satisfaction Rate", icon: Star, suffix: "%" },
 ];
